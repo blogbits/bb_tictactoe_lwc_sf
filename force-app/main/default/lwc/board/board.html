@@ -1,0 +1,19 @@
+<template>
+    <div class="board-row">
+        <c-square idx="0" onclick={handleSquareClick}></c-square>
+        <c-square idx="1" onclick={handleSquareClick}></c-square>
+        <c-square idx="2" onclick={handleSquareClick}></c-square>
+    </div>
+    <div class="board-row">
+        <c-square idx="3" onclick={handleSquareClick}></c-square>
+        <c-square idx="4" onclick={handleSquareClick}></c-square>
+        <c-square idx="5" onclick={handleSquareClick}></c-square>
+    </div>
+    <div class="board-row">
+        <c-square idx="6" onclick={handleSquareClick}></c-square>
+        <c-square idx="7" onclick={handleSquareClick}></c-square>
+        <c-square idx="8" onclick={handleSquareClick}></c-square>
+    </div>
+    <p>{status}</p>
+    <c-select-symbol symbol={game.userSymbol} onsymbolchange={handleSymbolChange}></c-select-symbol>
+</template>

@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+.sfdx/tools/apex.db
+.sfdx/orgs/test-q3vpmatnpa3n@example.com/sourcePathInfos.json.bak
+.sfdx/orgs/test-q3vpmatnpa3n@example.com/sourcePathInfos.json
